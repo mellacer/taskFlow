@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Domine o seu dia com o TaskFlow. Um app de lista de tarefas bonito e minimalista, projetado para ajudar você a manter o foco e a organização. Acompanhe seu progresso e alcance seus objetivos com facilidade. Comece a concluir suas tarefas hoje!">
+      <meta name="keywords" content="gerenciamento de tarefas, app de produtividade, planejador diário, lista de afazeres">
+      <meta http-equiv="X-UA-Compatible" content="IE=7">
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Mary Lacerda da Cunha">
+      <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TaskFlow - Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>TaskFlow</h1>
+            <div class="stat-container">
+                <div class="details">
+                    <h3>Continue assim!</h3>
+                    <div id="progressbar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+                <div class="stats-number">
+                    <p id="numbers">0 / 0</p>
+                </div>
+            </div>
+            <form action="" class="input-area">
+                <input type="text" id="task-input" placeholder="Adicione uma nova tarefa...">
+                <button type="submit" id="add-task-btn">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </form>
+            <div class="todos-container">
+                <ul id="task-list">
+                   
+                </ul>
+                <img class="empty-image" src="img/undraw_to-do-list_o3jf.svg" alt="Ilustração em flat design de uma pessoa ao lado de uma lista de tarefas gigante, marcando as tarefas concluídas.">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
